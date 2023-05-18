@@ -1,4 +1,4 @@
 .ipynb_checkpoints/
 Models/
-Knowledge Extraction (DQN).ipynb
-.gitignore
+/Knowledge Extraction (DQN).ipynb
+/.gitignore
