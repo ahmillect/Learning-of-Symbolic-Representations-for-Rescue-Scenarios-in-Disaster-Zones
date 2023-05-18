@@ -1,0 +1,44 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: >-
+  Learning of Symbolic Representations for Rescue Scenarios
+  in Disaster Zones
+message: >-
+  If you use this software, please cite it using the
+  metadata from this file.
+type: software
+authors:
+  - given-names: Ahmed Khaled
+    email: ahmillect@outlook.com
+    affiliation: The German University in Cairo
+repository-code: >-
+  https://github.com/ahmillect/Learning-of-Symbolic-Representations-for-Rescue-Scenarios-in-Disaster-Zones
+abstract: >-
+  The development of intelligent search and rescue systems
+  is of paramount importance in disaster response scenarios,
+  as rapid and effective assistance can save lives and
+  mitigate damage. In this thesis, we present a novel
+  approach that combines reinforcement learning with
+  symbolic knowledge extraction to create an autonomous
+  agent capable of navigating complex environments and
+  making informed decisions in a disaster zone, specifically
+  in our custom-designed DisasterZone environment. By
+  leveraging the strengths of Q-learning and Ron Sun's
+  \cite{sun1999knowledge} approach to extracting IF-THEN
+  rules from the learned policy, we aim to develop a more
+  interpretable and explainable model for disaster response
+  tasks, enabling better collaboration between humans and
+  artificial intelligence systems. Our findings reveal that
+  the training time of the agent is proportional to the
+  complexity of the environment, showcasing the efficiency
+  of our approach. However, limitations and challenges arise
+  from the lack of computational power, as training is
+  conducted using a CPU-based approach rather than a GPU
+  one.
+keywords:
+  - Neuro-Symbolic AI
+  - Q-Learning
+  - Reinforcement Learning
+license: MIT
